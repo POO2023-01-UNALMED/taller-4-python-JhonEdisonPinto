@@ -18,7 +18,7 @@ class Grupo:
         else:
             lista.append(alumno)
             self.listadoAlumnos = self.listadoAlumnos + lista
-        return lista
+        
 
     def __str__(self):
          return "Grupo de estudiantes: "+ self._grupo
